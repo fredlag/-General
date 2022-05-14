@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.row:after {
+  display: inline-block;
+}
+.column_1{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 500px;
+  background-color: black;
+  margin-right: 50px;
+}
+.Meny {
+  color: white;
+}
+.Innehåll {
+  color: black;
+}
+#p1, #p2, #p3 {
+  display: inline-block;
+}
+.column_2{
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 500px;
+}
+a {
+  display: block;
+  padding: 15px;
+}
+#datum {
+  text-align: center;
+}
